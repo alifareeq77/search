@@ -24,14 +24,16 @@
         <div class="search_image">
             <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg">
         </div>
-        <form action="">
+        <form action="https://www.google.com/search">
             <div class="search_b">
                 <button id="search_icon" type="submit"><i class="fa fa-search"></i></button>
-                <input id="search_bar" type="text" name="q"></div>
-            <div class="har">
+                <input autofocus id="search_bar" type="text" name="q"></div>
+            <div class="buttons">
                 <ul>
                     <li> <input type="submit" value="Google Search" class="button"></li>
-                    <li> <input type="submit" value="I'm feeling lucky" class="button"></li>
+                    <li><input hidden type="text" name="btnI"
+                            value="I'm Feeling Lucky">
+                    <li><input type="submit" value="I'm feeling lucky" class="button"></li>
                 </ul>
             </div>
         </form>

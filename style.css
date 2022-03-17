@@ -89,6 +89,8 @@
     margin-left: 20px;
 }
 
+
+
 #search_bar {
     bottom: 20px;
     width: 600px;
@@ -97,7 +99,7 @@
 
     border: 1px solid rgba(0, 0, 0, 0.15);
     border-radius: 50px;
-    text-indent: 20px;
+    text-indent: 60px;
     font-size: 14pt;
 
 
@@ -130,10 +132,6 @@
     text-align: center;
 
 
-}
-
-.buttons {
-    margin-top: 20px;
 }
 
 .buttons ul {
