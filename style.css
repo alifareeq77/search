@@ -34,16 +34,27 @@
     border: none;
 }
 
-.h_class li img {
-    margin-top: 6px;
+#apps {
+    display: block;
+    height: 45px;
+    width: 45px;
+
+}
+
+#apps:hover {
+    border: 0.5px;
+    border-radius: 100%;
+    background-color: #f2f2f2;
+}
+
+.h_class li div img {
+    transform: translate(21%, 20%);
+    position: absolute;
+    margin: -25;
     height: 30px;
     width: 30px;
     padding: auto;
-    color: #5f6368;
-    opacity: 1;
     overflow: hidden;
-    
-
 }
 
 .h_class a:hover {
@@ -52,15 +63,7 @@
 
 }
 
-.h_class li img:hover {
 
-    cursor: pointer;
-    background-color: red;
-    border: 1px solid;
-    border-radius: 50%;
-
-
-}
 
 .main {
 
@@ -129,6 +132,10 @@
 
 }
 
+.buttons {
+    margin-top: 20px;
+}
+
 .buttons ul {
     display: flex;
     justify-content: center;
@@ -194,4 +201,8 @@
     text-align: center;
     text-decoration: none;
     font-size: 16px;
+}
+
+.foot ul li a:hover {
+    text-decoration: underline;
 }
