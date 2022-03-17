@@ -3,32 +3,52 @@
 
 <head>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Search</title>
 </head>
 
 <body>
-    
-        <!-- <header>
-            <ul>
-                <li>Advance search</li>
-                <li>Images</li>
-                <li><img src="9021415_dots_nine_bold_icon.png" /></li>
 
+    <header>
+        <div class="h_class">
+            <ul>
+                <li style="height: 40px;width:40px"><img src="9021415_dots_nine_bold_icon.png" /></li>
+                <li><a href="#">Advance search</a></li>
+                <li><a href="#">Images</a></li>
             </ul>
-        </header> -->
-        <div class="main">
-            <form action="">
-                <div class="search_image">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg">
-                </div>
-                <input id="search_bar" type="text" name="q">
-                <div class="buttons">
-                    <input type="submit" value="Google Search" class="button">
-                    <input type="submit" value="I'm feeling lucky" class="button">
-                </div>
-            </form>
         </div>
-   
+    </header>
+    <div class="main">
+        <div class="search_image">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg">
+        </div>
+        <form action="">
+            <div class="search_b">
+                <button id="search_icon" type="submit"><i class="fa fa-search"></i></button>
+                <input id="search_bar" type="text" name="q"></div>
+            <div class="buttons">
+                <ul>
+                    <li> <input type="submit" value="Google Search" class="button"></li>
+                    <li> <input type="submit" value="I'm feeling lucky" class="button"></li>
+                </ul>
+            </div>
+        </form>
+    </div>
+    <div class="foot">
+        <ul class="fuls" id="u1">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Advertising</a></li>
+            <li><a href="#">Business</a></li>
+            <li><a href="#">How search works </a></li>
+
+            <div class="right_li">
+                <li id="l1" style="float:right;"><a href="#">Privacy</a></li>
+                <li id="l2" style="float:right;"><a href="#">Terms</a></li>
+                <li id="l3" style="float:right;"><a href="#">Settings</a></li>
+            </div>
+        </ul>
+    </div>
+
 
 </body>
 
