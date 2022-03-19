@@ -1,14 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <link rel="stylesheet" href="style.css">
 
-        <title>Search</title>
-    </head>
-    <body>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Search</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="h_class">
+            <ul>
+                <li>
+                    <div id="apps"><img src="9021415_dots_nine_bold_icon.png" /></div>
+                </li>
+                <li><a href="google_advance.html">Advance search</a></li>
+                <li><a href="index.html">Search</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="main">
+        <div class="search_image">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg">
+            <span id="img_t">imgaes</span>
+        </div>
         <form action="https://www.google.com/search">
-            <input type="text" name="q">
-            <input type="submit" value="Google Search">
+            <div class="search_b">
+                <button id="search_icon" type="submit"><i class="fa fa-search"></i></button>
+                <input hidden type="text" name="tbm" value="isch">
+
+                <input autofocus id="search_bar" type="text" name="q"></div>
+
         </form>
-    </body>
+    </div>
+    <div class="foot">
+        <ul class="fuls" id="u1">
+            <li><a href="https://about.google">About</a></li>
+            <li><a href="https://ads.google.com/intl/en_iq/home/">Advertising</a></li>
+            <li><a href="https://www.google.iq/services/#?modal_active=none">Business</a></li>
+            <li><a href="https://www.google.com/search/howsearchworks/">How search works </a></li>
+
+            <div class="right_li">
+                <li style="float:right;"><a href="policies.google.com/privacy">Privacy</a></li>
+                <li style="float:right;"><a href="policies.google.com/terms">Terms</a></li>
+                <li style="float:right;"><a href="#">Settings</a></li>
+            </div>
+        </ul>
+    </div>
+
+
+</body>
+
 </html>

@@ -1,14 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <link rel="stylesheet" href="style.css">
 
-        <title>Search</title>
-    </head>
-    <body>
+<head>
+    <link rel="stylesheet" href="advance.css">
+
+    <title>Search</title>
+</head>
+
+<body>
+    <header>
+        <div class="h_class">
+            <ul>
+                <li>
+                    <div id="apps"><img src="9021415_dots_nine_bold_icon.png" /></div>
+                </li>
+                <li><a href="google_image.html">Images</a></li>
+                <li><a href="index.html">Search</a></li>
+                <span></span>
+            </ul>
+        </div>
+    </header>
+    <div id="advance_search">Advance Search</div>
+    <div id="bord"> </div>
+    <div class="main">
         <form action="https://www.google.com/search">
-            <input type="text" name="q">
-            <input type="submit" value="Google Search">
+            <span>Find pages with...</span>
+            <div class="main_boxes">
+                <div><span style="font-size: 11pt;">all these words:</span>
+                    <input autocomplete="off" class="search_box1" autofocus type="text" name="as_q" />
+                </div>
+                <div> <span style="font-size: 11pt;">this exact word or phrase:</span>
+                    <input autocomplete="off" class="search_box2" type="text" name="as_epq" />
+                </div>
+                <div><span style="font-size: 11pt;">any of these words:</span>
+                    <input autocomplete="off" class="search_box3" type="text" name="as_oq" />
+                </div>
+                <div>
+                    <span style="font-size: 11pt;">none of these words:</span><input class="search_box4" type="text"
+                        name="as_eq" />
+                </div>
+                <div class="search_button">
+                    <input autocomplete="off" type="submit" value="Advance search">
+                </div>
+            </div>
         </form>
-    </body>
+    </div>
+</body>
+
 </html>

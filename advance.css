@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+
+
+.h_class {
+    width: 100%;
+    padding: 6px;
+
+}
+
+.h_class ul {
+    list-style-type: none;
+    overflow: hidden;
+    justify-content: baseline;
+}
+
+.h_class li {
+    float: right;
+}
+
+.h_class li a {
+    display: block;
+    color: rgba(0, 0, 0, 0.87);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 11pt;
+    border: none;
+}
+
+#apps {
+    display: block;
+    height: 45px;
+    width: 45px;
+
+}
+
+#apps:hover {
+    border: 0.5px;
+    border-radius: 100%;
+    background-color: #f2f2f2;
+}
+
+.h_class li div img {
+    transform: translate(21%, 20%);
+    position: absolute;
+    margin: -25;
+    height: 30px;
+    width: 30px;
+    padding: auto;
+    overflow: hidden;
+}
+
+.h_class a:hover {
+    text-decoration: underline;
+    color: rgba(0, 0, 0, 0.87);
+
+}
+
+body header span {
+    content: url(https://www.gstatic.com/images/branding/googlelogo/svg/googlelogo_clr_74x24px.svg);
+    margin: 20px;
+}
+
+#advance_search {
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+    font-size: 17pt;
+    font-family: Arial, sans-serif;
+    color: rgb(217, 48, 37);
+}
+
+body form>span {
+    font-size: 14pt;
+    font-family: Arial, sans-serif;
+    margin: 6px 0px 6px 0px;
+}
+
+#bord {
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.15) inset;
+    height: 1px;
+    width: 99%;
+
+}
+
+.main {
+    margin: 60px 40px;
+}
+
+.search_box1,
+.search_box2,
+.search_box3,
+.search_box4 {
+    margin-bottom: 15px;
+    height: 25px;
+    width: 370px;
+    padding: 1px 8px 1px 8px;
+    border-width: 0.99px;
+    background-color: #fff;
+    border-right: 1px;
+    border: 0.99px solid rgba(0, 0, 0, 0.15);
+}
+
+.search_box1:focus,
+.search_box2:focus,
+.search_box3:focus,
+.search_box4:focus {
+    border: 0.99px solid #4285F4;
+    outline: none;
+    box-shadow: 0px -1px 2px rgba(0, 0, 0, 0.158);
+
+}
+
+
+.search_box1 {
+    margin-left: 80px;
+}
+
+.search_box2 {
+    margin-left: 15px;
+}
+
+.search_box3 {
+    margin-left: 55.4px;
+}
+
+.search_box4 {
+    margin-left: 51px;
+}
+
+.main_boxes {
+    padding-top: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.search_button>input {
+    margin-left: 451px;
+    margin-top: 10px;
+    cursor: pointer;
+    color: white;
+    padding: 0 12px 0 12px;
+    height: 33px;
+    background-color: #4285F4;
+    border: 0.9px solid rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+
+}
+
+.search_button>input:hover {
+    background-color: #3079ed;
+    ;
+}
