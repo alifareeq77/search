@@ -27,13 +27,14 @@
         </div>
         <form action="https://www.google.com/search">
             <div class="search_b">
+                <button id="search_icon"><i class="fa fa-search"></i></button>
                 <input autofocus id="search_bar" type="text" name="q"></div>
-                <button id="search_icon" type="submit" name="q"><i class="fa fa-search"></i></button>
             <div class="buttons">
                 <ul>
                     <li> <input type="submit" value="Google Search" class="button"></li>
-                    <li><input hidden type="text" name="btnI" value="I'm Feeling Lucky">
-                    <li><input type="submit" value="I'm feeling lucky" class="button"></li>
+                    <li><button class="button" type="submit" name="btnI"
+                            formaction="https://google.com/search?&btnI=I'm Feeling Lucky"> Feeling Lucky </button>
+                    </li>
                 </ul>
             </div>
         </form>
